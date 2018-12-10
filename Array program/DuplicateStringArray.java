@@ -3,10 +3,11 @@ import java.util.Scanner;
 class DuplicateStringArray {
     public static void main(String[] ar) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter array size");
         int n = sc.nextInt();
-
+         sc.nextLine();
         String arr[] = new String[n];
-
+        
         System.out.println("Enter array element");
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextLine();

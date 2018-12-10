@@ -6,7 +6,7 @@ class ArrayInsertNumber {
         System.out.println("enter array size");
         int n = sc.nextInt();
 
-        int arr[] = new int[n];
+        int arr[] = new int[n + 1];
 
         System.out.println("enter array element");
         for (int i = 0; i < n; i++) {
@@ -19,13 +19,13 @@ class ArrayInsertNumber {
         System.out.println("enter element for insert in array");
         int num = sc.nextInt();
 
-        for (int i = n - 1; i <= k; i--) {
+        for (int i = n - 1; i >= k; i--) {
             arr[i + 1] = arr[i];
         }
         arr[k] = num;
-
-        for (int i = 0; i <= n + 1; i++) {
-            System.out.println("after insert the element " + arr[i] + " ");
+        System.out.println("After inserted the element array becomes");
+        for (int i = 0; i <= n ; i++) {
+            System.out.print( arr[i] + " ");
         }
 
     }
