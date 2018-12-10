@@ -20,12 +20,11 @@ class MaxMinDifference {
             if(arr[i] > max) {
                 max = arr[i];
             }
-        }
-         for(int i = 1; i <m; i++) {
-            if(arr[i] < min) {
+            else  if(arr[i] < min) {
                 min = arr[i];
             }
         }
+         
         int result = max - min;
         System.out.println("difference is " + result);
             
