@@ -1,5 +1,6 @@
  import java.util.Scanner;
 
+
  class SeprateZero {
     public static void main(String [] ar) {
      Scanner sc = new Scanner(System.in);
@@ -22,6 +23,9 @@
                 arr[count] = 0;
                 count++;
             }
-            System.out.println(arr);
+           
+           for(int i = 0; i<n; i++) {
+               System.out.print(arr[i] + ",");
+           }
     }
  }
