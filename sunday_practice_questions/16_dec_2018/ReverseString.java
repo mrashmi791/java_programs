@@ -1,6 +1,7 @@
 // to reverse string without using API(Predefined methods).
 
 
+
 class ReverseString {
     public static void main(String[] ar) {
         String name = "Rashmi";
