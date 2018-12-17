@@ -10,7 +10,7 @@ class Captilize {
         String str = "my name is rashmi";
         char ch[] = str.toCharArray();
         for(int i = 0; i < str.length(); i++) {
-            if(i == 0 && ch[i] != ' ' ||ch[i] != ' ' && ch[i - 1] == ' ') {
+            if(i == 0 && ch[i] != ' ' || ch[i] != ' ' && ch[i - 1] == ' ') {
                 ch[i] = (char)(ch[i] -'a' + 'A');
 
             }

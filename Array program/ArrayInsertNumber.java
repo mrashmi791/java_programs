@@ -8,10 +8,16 @@ class ArrayInsertNumber {
 
         int arr[] = new int[n + 1];
 
-        System.out.println("enter array element");
-        for (int i = 0; i < n; i++) {
+        System.out.println("enter array size");
+        int n = sc.nextInt();
+
+        int arr[] = new int[n + 1];
+    
+        for (int i = 0 ; i< n ; i++) {
             arr[i] = sc.nextInt();
+
         }
+
 
         System.out.println("enter index position");
         int k = sc.nextInt();

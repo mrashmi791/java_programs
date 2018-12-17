@@ -1,0 +1,13 @@
+WAP
+
+1. to find all pairs on integer array whose sum is equal to given number?
+
+2. to remove duplicates from array in Java?
+
+3. to find first non-repeating element in array of integers?
+
+4. to reverse string without using API(Predefined methods).
+
+5. to demonstarte method overloading and method overriding.
+
+//6. to sort a List object which contains Employee object.
