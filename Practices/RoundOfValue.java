@@ -1,3 +1,6 @@
+//To round up the result of integer division.
+
+
 import java.util.Scanner;
 
 class RoundOfValue {
