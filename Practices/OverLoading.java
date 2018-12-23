@@ -10,6 +10,7 @@ public void rectangle(double height) {
     System.out.println("height : " + height);
     
 }
+
 public static void main(String[] arr) {
     int length = 5;
     double height = 4.5;
