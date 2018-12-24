@@ -9,7 +9,7 @@
 import java.util.Scanner;
 
 class ReverseString {
-        static String temp = "";
+    static String temp = "";
     static void reverse(String s) {
     
        int length = s.length();
