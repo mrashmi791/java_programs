@@ -26,7 +26,7 @@ class Xpattern {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter rows");
         int n = sc.nextInt();
-        System.out.println("Enter symbol");
+        System.out.print("Enter symbol");
         char c = sc.next().charAt(0);
 
         int k = n*2-1;
